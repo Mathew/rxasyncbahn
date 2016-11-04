@@ -6,20 +6,6 @@ from rx import Observable
 from rx.concurrency import AsyncIOScheduler
 
 
-class ServiceClient:
-    def __init__(self):
-        sock = ctx.socket(zmq.PULL)
-        sock.bind(url)
-        msg = yield from sock.recv_multipart() # waits for msg to be ready
-        reply = yield from async_process(msg)
-        out = yield from sock.send_multipart(reply)
-
-        next(out)
-
-    def get(self):
-        pass
-
-
 class BroadcastServerFactory(WebSocketServerFactory):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
