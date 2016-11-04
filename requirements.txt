@@ -1,0 +1,17 @@
+Rx==1.5.2
+appnope==0.1.0
+autobahn==0.14.1
+backports.shutil-get-terminal-size==1.0.0
+decorator==4.0.10
+gnureadline==6.3.3
+ipdb==0.10.1
+ipython==4.2.0
+ipython-genutils==0.1.0
+pexpect==4.1.0
+pickleshare==0.7.2
+ptyprocess==0.5.1
+pyzmq==15.3.0
+simplegeneric==0.8.1
+six==1.10.0
+traitlets==4.2.1
+txaio==2.5.1
