@@ -52,8 +52,7 @@ class BroadcastManager:
             print("completed")
 
         def on_error(e):
-            print("fucked")
-            print(e)
+            print("An error occured: {}".format(e)
 
         subscription = self.obs.subscribe(
             on_next, on_completed, on_error
