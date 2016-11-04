@@ -23,6 +23,6 @@ fashions.
 Links
 =====
 
-[Autobahn](http://autobahn.ws/)
-[Asyncio](https://docs.python.org/3/library/asyncio.html)
-[RxPY](https://github.com/ReactiveX/RxPY)
+* [Autobahn](http://autobahn.ws/)
+* [Asyncio](https://docs.python.org/3/library/asyncio.html)
+* [RxPY](https://github.com/ReactiveX/RxPY)
